@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZIR | زر عبايات</title>
+<meta name="description" content="زر: عبايات بتفاصيل حلوة بمقاسات من 50 إلى 60. اطلبي عبايتك الحين من المتجر.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Poppins:wght@400;500;600&family=Readex+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .hero{background:linear-gradient(135deg,#FBF1E6,#EBCFC2)}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:36px;padding-top:54px;padding-bottom:60px}
+  .hero h1{font-size:clamp(34px,5vw,58px);margin:8px 0 12px}
+  .hero h1 em{font-style:normal;color:var(--mocha-d)}
+  .hero p{max-width:28em;margin-bottom:22px;opacity:.85}
+  .hero .en{font-size:22px;color:var(--mocha-d);margin-bottom:22px}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .frame{position:relative;max-width:410px;margin-inline:auto}
+  .frame .ph{border-radius:999px 999px 26px 26px;overflow:hidden;box-shadow:0 18px 44px var(--shadow);border:8px solid #fff}
+  .frame img{width:100%;aspect-ratio:4/5.5;object-fit:cover;object-position:50% 25%}
+  .frame .pill{position:absolute;bottom:22px;inset-inline-start:-6px}
+
+  .prod{display:grid;grid-template-columns:1fr 1fr;gap:0;overflow:hidden;max-width:920px;margin:34px auto 0}
+  .prod img{width:100%;height:100%;max-height:520px;object-fit:cover;object-position:50% 22%;min-height:380px}
+  .prod .info{padding:34px 30px;display:flex;flex-direction:column;justify-content:center;gap:8px;text-align:start}
+  .prod h3{font-size:26px}
+  .prod .price{font-size:26px;font-weight:600;color:var(--mocha-d)}
+  .prod .price small{font-size:14px;font-weight:400;opacity:.8}
+  .sizes{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 10px}
+  .sizes span{border:1.5px solid var(--pink);border-radius:999px;padding:2px 14px;font-family:Poppins;font-size:14px}
+
+  .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px;text-align:start}
+  .feat div{padding:24px 22px}
+  .feat i{font-style:normal;font-size:28px;display:block}
+  .feat b{display:block;font-size:18px;margin-bottom:4px}
+  .feat span{font-size:15px;opacity:.8;line-height:1.85}
+
+  .gal{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+  .gal figure{margin:0;border-radius:24px;overflow:hidden;aspect-ratio:4/5.4;background:var(--pink)}
+  .gal img{width:100%;height:100%;object-fit:cover}
+
+  .story{background:var(--pink)}
+  .story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+  .story img{border-radius:26px;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border:8px solid #fff;box-shadow:0 14px 36px var(--shadow)}
+  .story p{margin-top:12px;opacity:.9}
+
+  .ctaSec{background:linear-gradient(135deg,#EBCFC2,#F7EFE6);text-align:center}
+  .ctaSec p{margin:8px 0 24px;opacity:.85}
+
+  @media (max-width:820px){
+    .hero .wrap,.story .wrap,.prod{grid-template-columns:1fr}
+    .hero .wrap{padding-top:30px;padding-bottom:40px}
+    .prod img{min-height:0;aspect-ratio:4/5}
+    .feat{grid-template-columns:1fr}
+    .gal{grid-template-columns:1fr 1fr}
+    .sticky{display:block;position:fixed;bottom:0;inset-inline:0;background:rgba(247,239,230,.96);padding:10px 16px;z-index:30;border-top:1px solid var(--line)}
+    .sticky .btn{display:block;text-align:center;width:100%}
+  }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a href="./"><img src="img/logo-mocha.png" alt="ZIR زر"></a>
+    <nav><a href="./">الرئيسية</a><a href="polka-abaya/">عباية النقاط</a><a href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">المتجر</a></nav>
+    <a class="btn sm" href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">تسوّقي الحين</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="lbl">ZIR · New Drop</div>
+      <h1>عبايات <em>حلوة</em> لكل يوم 🤎</h1>
+      <p>من زر: عبايات بتفاصيل ناعمة وأسعار مرتبة، تلبسينها للدوام أو المشوار أو العزيمة. ومقاساتنا من 50 إلى 60.</p>
+      <div class="en">Worn with certainty.</div>
+      <div class="cta">
+        <a class="btn" href="polka-abaya/">شوفي عباية النقاط</a>
+        <a class="btn ghost" href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">تسوّقي من المتجر</a>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="ph"><img src="img/hero.jpg" alt="عباية النقاط من زر"></div>
+      <span class="spark" style="top:-8px;inset-inline-end:8px">✦</span>
+      <span class="spark" style="top:44px;inset-inline-end:-10px;font-size:18px">✦</span>
+      <span class="pill">جديد ✨</span>
+    </div>
+  </div>
+</section>
+
+<div class="strip"><span><i>✦</i> عباية النقاط</span><span><i>✦</i> ٢٥٠ ر.س</span><span><i>✦</i> مقاسات ٥٠ - ٦٠</span><span><i>✦</i> اطلبيها الحين</span></div>
+
+<section class="sec wrap center">
+  <div class="lbl">New in</div>
+  <h2>جديدنا 🤎</h2>
+  <a class="card prod" href="polka-abaya/">
+    <img src="img/look-rijal.jpg" alt="عباية النقاط">
+    <div class="info">
+      <span class="pill" style="align-self:flex-start">جديد ✨</span>
+      <h3>عباية النقاط</h3>
+      <div class="price">250 <small>ر.س</small></div>
+      <div class="sizes"><span>50</span><span>52</span><span>54</span><span>56</span><span>58</span><span>60</span></div>
+      <p style="opacity:.85;font-size:15px">أسود سادة مع بطانة وأكمام بنقاط ناعمة بلون الموكا.</p>
+      <span class="btn" style="align-self:flex-start;margin-top:8px">شوفي التفاصيل</span>
+    </div>
+  </a>
+</section>
+
+<section class="sec wrap center" style="padding-top:10px">
+  <div class="lbl">Why ZIR</div>
+  <h2>ليش زر؟ 💕</h2>
+  <div class="feat">
+    <div class="card"><i>📏</i><b>مقاسات من 50 إلى 60</b><span>نغطي مقاسات أكثر، عشان تلقين اللي يناسبك.</span></div>
+    <div class="card"><i>🤎</i><b>تفاصيل حلوة</b><span>ألوان وطباعات وأكمام مختلفة، بدون ما تكون معقدة.</span></div>
+    <div class="card"><i>🛍</i><b>اطلبي بسهولة</b><span>تختارين مقاسك وتطلبين من المتجر بخطوات بسيطة.</span></div>
+  </div>
+</section>
+
+<section class="sec wrap center" style="padding-top:10px">
+  <div class="lbl">Look</div>
+  <h2>شوفي الشكل على الطبيعة</h2>
+  <div class="gal">
+    <figure><img src="img/look-rijal.jpg" alt="" loading="lazy"></figure>
+    <figure><img src="img/look-door.jpg" alt="" loading="lazy"></figure>
+    <figure><img src="img/hero.jpg" alt="" loading="lazy"></figure>
+    <figure><img src="img/balcony.jpg" alt="" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="story sec">
+  <div class="wrap">
+    <img src="img/sitting.jpg" alt="" loading="lazy">
+    <div>
+      <div class="lbl">About ZIR</div>
+      <h2>زر… التفصيلة الصغيرة اللي تكمّل طلّتك</h2>
+      <p>«زر» اسم جاي من الزر الصغير اللي يجمع القطعة كلها. نختار عباياتنا عشان تلبسينها وأنتِ مرتاحة وواثقة.</p>
+      <p class="en" style="font-size:22px;color:var(--mocha-d);margin-top:14px">Worn with certainty.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec ctaSec">
+  <div class="wrap">
+    <h2>جاهزة تختارين عبايتك؟ 🤎</h2>
+    <p>شوفي عباية النقاط أو تصفحي المتجر كامل.</p>
+    <a class="btn" href="polka-abaya/">عباية النقاط</a>
+    <a class="btn ghost" href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener" style="margin-inline-start:8px">المتجر</a>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">ZIR</div>
+  <div style="margin-top:6px">Instagram · <a href="https://instagram.com/zir_abaya" target="_blank" rel="noopener">zir_abaya</a></div>
+  <div style="margin-top:6px;opacity:.8">شكراً لثقتك 💕</div>
+</footer>
+
+<div class="sticky"><a class="btn" href="polka-abaya/">شوفي عباية النقاط</a></div>
+
+</body>
+</html>

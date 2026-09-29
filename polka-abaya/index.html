@@ -15,7 +15,7 @@
   .gallery .main{position:relative;border-radius:28px;overflow:hidden;background:var(--pink);box-shadow:0 14px 36px var(--shadow);border:8px solid #fff}
   .gallery .main img{width:100%;aspect-ratio:4/5.2;object-fit:cover;object-position:50% 22%}
   .gallery .main .pill{position:absolute;top:16px;inset-inline-start:16px}
-  .thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px}
+  .thumbs{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:12px}
   .thumbs button{border:2px solid transparent;border-radius:16px;overflow:hidden;background:var(--pink);padding:0;cursor:pointer;aspect-ratio:1/1.15}
   .thumbs button.on{border-color:var(--mocha)}
   .thumbs img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
@@ -62,13 +62,13 @@
 <header class="bar">
   <div class="wrap">
     <a href="../"><img src="../img/logo-mocha.png" alt="ZIR زر"></a>
-    <nav><a href="../">الرئيسية</a><a href="./">عباية النقاط</a><a href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">المتجر</a></nav>
+    <nav><a href="../">الرئيسية</a><a href="../#products">العبايات</a><a href="./">عباية النقاط</a><a href="../#about">عن زر</a><a href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">المتجر</a></nav>
     <a class="btn sm" href="https://salla.sa/zirabaya.com" target="_blank" rel="noopener">تسوّقي الحين</a>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="crumbs"><a href="../">الرئيسية</a> / عبايات / عباية النقاط</div>
+  <div class="crumbs"><a href="../">الرئيسية</a> / <a href="../#products">عبايات</a> / عباية النقاط</div>
 
   <section class="pdp">
     <div class="gallery">
@@ -79,6 +79,7 @@
         <button data-src="../img/look-door.jpg" aria-label="صورة 3"><img src="../img/look-door.jpg" alt=""></button>
         <button data-src="../img/detail.jpg" aria-label="صورة 4"><img src="../img/detail.jpg" alt=""></button>
         <button data-src="../img/sitting.jpg" aria-label="صورة 5"><img src="../img/sitting.jpg" alt=""></button>
+        <button data-src="../img/detail-cuff.jpg" aria-label="صورة 6"><img src="../img/detail-cuff.jpg" alt=""></button>
       </div>
     </div>
 
